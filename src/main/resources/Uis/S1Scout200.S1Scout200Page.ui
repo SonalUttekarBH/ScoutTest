@@ -1,0 +1,238 @@
+{
+	"version": 1,
+	"po": {
+		"runtime": "mobile/android/apps/native/S1Scout200",
+		"name": "S1Scout200Page",
+		"appPackage": "com.bently.scout200",
+		"appActivity": "com.bently.scout200.MainActivity",
+		"members": {
+			"data": [{
+					"type": "CHomePage",
+					"identifier": "home",
+					"loc": ["xpath", "//*[@id='mainMenuView']", "webview"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CStatusBarPage",
+					"identifier": "statusbar",
+					"loc": ["xpath", "//*[@id='statusBar']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSettingsPage",
+					"identifier": "setting",
+					"loc": ["xpath", "//*[@id='settingsView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CMeasurePage",
+					"identifier": "measure",
+					"loc": ["xpath", "//*[@id='measureView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSimulatorPage",
+					"identifier": "simulator",
+					"loc": ["xpath", "//*[@id='simulatorList']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CDevicesPage",
+					"identifier": "devices",
+					"loc": ["xpath", "//*[@id='devicesView,]"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CDialogPage",
+					"identifier": "dialog",
+					"loc": ["xpath", "//*[@class='modal-content']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CMeasureConfigPage",
+					"identifier": "measureConfig",
+					"loc": ["xpath", "//*[@id='measureConfigView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSensorSetupPage",
+					"identifier": "sensorSetup",
+					"loc": ["xpath", "//*[@id='channelsView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSensorSelectionPage",
+					"identifier": "sensorSelection",
+					"loc": ["xpath", "//*[@id='sensorsView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CAddEditSensorPage",
+					"identifier": "addEditSensor",
+					"loc": ["xpath", "//*[@id='sensorsSetupView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CNameSensor",
+					"identifier": "nameSensor",
+					"loc": ["xpath", "//*[@id='sensorNameView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CTypeSensor",
+					"identifier": "typeSensor",
+					"loc": ["xpath", "//*[@id='sensorTypeView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CVolRCSensor",
+					"identifier": "volRCSensor",
+					"loc": ["xpath", "//*[@id='sensorChannelInputView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CdriveCurrentSensor",
+					"identifier": "driveCurrentSensor",
+					"loc": ["xpath", "//*[@id='sensorDriveCurrentView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CZeroDCOffset",
+					"identifier": "zeroDCOff",
+					"loc": ["xpath", "//*[@id='sensorDCOffsetView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSensorType",
+					"identifier": "senType",
+					"loc": ["xpath", "//*[@id='sensorTypeView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSensorUnit",
+					"identifier": "senUnit",
+					"loc": ["xpath", "//*[@id='sensorUintsView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSensorSettlingTime",
+					"identifier": "senSettlingTime",
+					"loc": ["xpath", "//*[@id='sensorSettlingView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSensorAutoSettling",
+					"identifier": "senSettlingTime",
+					"loc": ["xpath", "//*[@id='sensorAutoSettlingView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CSensorSensitivity",
+					"identifier": "senSensitivity",
+					"loc": ["xpath", "//*[@id='sensor.Sensitivity']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CMeasurinUnitPage",
+					"identifier": "unitsView",
+					"loc": ["xpath", "//*[@id='settingsUnitsView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CunitSet",
+					"identifier": "units",
+					"loc": ["xpath", "//*[@id='settingsUnitsetView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CAddEditParamsetPage",
+					"identifier": "addEditParamset",
+					"loc": ["xpath", "//*[@id='measureParamsetsView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CStoreUnitParamset",
+					"identifier": "units",
+					"loc": ["xpath", "//*[@id='sensorsSetupView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CStoreUnitParamset",
+					"identifier": "storeunit",
+					"loc": ["xpath", "//*[@id='paramsetStoreUnitView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CTypeParamset",
+					"identifier": "typeStoreunit",
+					"loc": ["xpath", "//*[@id='paramsetTypeView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				},
+				{
+					"type": "CMeasureGraph",
+					"identifier": "measureGraph",
+					"loc": ["xpath", "//*[@id='measuringView']"],
+					"autocode": {
+						"dynamic": true
+					}
+				}
+
+
+			]
+		}
+	}
+}

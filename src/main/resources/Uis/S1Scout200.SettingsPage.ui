@@ -1,0 +1,20 @@
+{
+	"co": {
+		"co": [{
+			"name": "CSettingsPage",
+			"members": {
+				"data": [{
+					"type": "CText",
+					"identifier": "dataCollectorSimulator",
+					"loc": ["xpath", "//*[@test-tag='settings_simulator_navbar']","webview"]
+				},
+				{
+					"type": "CText",
+					"identifier": "measuringUnits",
+					"loc": ["xpath", "//*[@test-tag='settings_units_navbar']","webview"]
+				}
+				]
+			}
+		}]
+	}
+}

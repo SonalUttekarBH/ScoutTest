@@ -1,0 +1,20 @@
+{
+	"co": {
+		"co": [{
+			"name": "CFileExplorer",
+			"members": {
+				"data": [{
+				"type": "CText",
+				"identifier": "browse",
+				"loc": ["xpath", "//*[@test-tag='load_browse_test_navbar'","webview"]
+			},
+			{
+				"type": "CText",
+				"identifier": "load",
+				"loc": ["xpath", "//*[@test-tag='sync_load_button'","webview"]
+			}
+			]
+			}
+		}]
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"co": {
+		"co": [{
+			"name": "CMeasurePage",
+			"members": {
+				"data": [{
+						"type": "CText",
+						"identifier": "spectrumWfm",
+						"loc": ["xpath", "//*[@test-tag='measure_Spectrum / Waveform_navbar']", "webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "demodulation",
+						"loc": ["xpath", "//*[@test-tag='measure_Demodulation_navbar']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "pack6Rec",
+						"loc": ["xpath", "//*[@test-tag='measure_6Pack Recordings™_navbar']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "timeSyncAveraging",
+						"loc": ["xpath", "//*[@test-tag='measure_Time Synchronous Averaging_navbar']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "bumpTest",
+						"loc": ["xpath", "//*[@test-tag='measure_Bump Test_navbar']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "keypad",
+						"loc": ["xpath", "//*[@test-tag='measure_Keypad_navbar']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "tach",
+						"loc": ["xpath", "//*[@test-tag='measure_Tach_navbar']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "tachDiagnostics",
+						"loc": ["xpath", "//*[@test-tag='measure_Tach Diagnostics_navbar']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "cableTest",
+						"loc": ["xpath", "//*[@test-tag='measure_Cable Test_navbar']"]
+					}
+				]
+			}
+		}]
+	}
+}

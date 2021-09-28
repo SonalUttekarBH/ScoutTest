@@ -1,0 +1,14 @@
+{
+	"co": {
+		"co": [{
+			"name": "CDBOptionsPage",
+			"members": {
+				"data": [{
+				"type": "CText",
+				"identifier": "dbOptionPage",
+				"loc": ["xpath", "//*[@test-tag='databaseoptionslist_reset_navbar'","webview"]
+			}]
+			}
+		}]
+	}
+}

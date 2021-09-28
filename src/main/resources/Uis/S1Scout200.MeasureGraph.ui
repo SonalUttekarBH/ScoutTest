@@ -1,0 +1,28 @@
+{
+	"co": {
+		"co": [
+			{
+				"name": "CMeasureGraph",
+				"members": {
+					"data": [{
+						"type": "CText",
+						"identifier": "pause",
+						"loc": ["xpath", "//*[@test-tag='measuringview_pause_button']", "webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "ch1SpectrumUnit",
+						"loc": ["xpath", "//*[@test-tag='graph_legend_overall_units_MEASURE_DISPLAY_SPECTRUM_1']", "webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "ch1WaveformUnit",
+						"loc": ["xpath", "//*[@test-tag='graph_legend_overall_units_MEASURE_DISPLAY_WAVEFORM_1']", "webview"]
+					}
+					]
+				}
+			}
+			
+		]
+	}
+}

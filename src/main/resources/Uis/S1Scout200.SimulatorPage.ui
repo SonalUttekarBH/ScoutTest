@@ -1,0 +1,14 @@
+{
+	"co": {
+		"co": [{
+			"name": "CSimulatorPage",
+			"members": {
+				"data": [{
+				"type": "CCheckbox",
+				"identifier": "dataCollectorSimulatorCBox",
+				"loc": ["xpath", "//*[@test-tag='datacollectorsimulator_enable_checkbox'","webview"]
+			}]
+			}
+		}]
+	}
+}

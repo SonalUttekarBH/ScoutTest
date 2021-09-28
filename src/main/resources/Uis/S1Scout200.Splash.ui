@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"po": {
+		"runtime": "mobile/android/apps/native/S1Scout200",
+		"name": "SplashPage",
+		"appPackage": "com.bently.scout200",
+		"appActivity": "com.bently.scout200.MainActivity",
+		"members": {
+			"data": [{
+				"type": "CImg",
+				"identifier": "splashImg",
+				"loc": ["id", "android:id/content"],
+				"autocode": {
+					"dynamic": true
+				}
+			}]
+		}
+	}
+}

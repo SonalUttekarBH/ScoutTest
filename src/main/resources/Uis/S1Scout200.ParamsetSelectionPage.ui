@@ -1,0 +1,34 @@
+{
+	"co": {
+		"co": [{
+			"name": "CParamsetSelectionPage",
+			"members": {
+				"data": [{
+						"type": "CText[]",
+						"identifier": "paramsetList",
+						"loc": ["xpath", "//*[@id='paramsetsList']","webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "addParam",
+						"loc": ["xpath", "//*[@test-tag='measureparamsetsview_add_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "editParam",
+						"loc": ["xpath", "//*[@test-tag='measureparamsetsview_editmode_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "selectionMode",
+						"loc": ["xpath", "//*[@test-tag='measureparamsetsview_selectionmode_button']"],
+						"autocode": {
+							"dynamic": true
+						}
+					}
+
+				]
+			}
+		}]
+	}
+}

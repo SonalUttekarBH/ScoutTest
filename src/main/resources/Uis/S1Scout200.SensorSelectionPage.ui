@@ -1,0 +1,34 @@
+{
+	"co": {
+		"co": [{
+			"name": "CSensorSelectionPage",
+			"members": {
+				"data": [{
+						"type": "CText[]",
+						"identifier": "sensorList",
+						"loc": ["xpath", "//*[@id='SensorListList']","webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "addParam",
+						"loc": ["xpath", "//*[@test-tag='sensorselection_add_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "editParam",
+						"loc": ["xpath", "//*[@test-tag='sensorselection_editmode_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "selectionMode",
+						"loc": ["xpath", "//*[@test-tag='sensorselection_selectionmode_button']"],
+						"autocode": {
+							"dynamic": true
+						}
+					}
+
+				]
+			}
+		}]
+	}
+}

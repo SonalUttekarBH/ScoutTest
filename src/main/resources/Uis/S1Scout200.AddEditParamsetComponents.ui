@@ -1,0 +1,26 @@
+{
+	"co": {
+		"co": [{
+				"name": "CStoreUnitParamset",
+				"members": {
+					"data": {
+						"type": "CText[]",
+						"identifier": "storeunitVal",
+						"loc": ["xpath", "//*[contains(@test-tag,'_listitem')]']", "webview"]
+					}
+
+				}
+			},
+			{
+				"name": "CTypeParamset",
+				"members": {
+					"data": [{
+						"type": "CText[]",
+						"identifier": "paramsetType",
+						"loc": ["xpath", "//*[contains(@test-tag,'_listitem')]", "webview"]
+					}]
+				}
+			}
+		]
+	}
+}

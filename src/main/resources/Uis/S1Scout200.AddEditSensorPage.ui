@@ -1,0 +1,89 @@
+{
+	"co": {
+		"co": [{
+			"name": "CAddEditSensorPage",
+			"members": {
+				"data": [{
+						"type": "CText",
+						"identifier": "name",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_name_rightcontent']", "webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "type",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_type_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "volRangeCoupling",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_channelinput_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "settlingTime",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_settlingtime_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "autoSettling",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_autosettling_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "sensitivity",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_sensitivity_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "unit",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_unit_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "driveCurrent",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_drivecurrent_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "biasVolCheck",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_biasvoltage_rightcontent']"],
+						"autocode": {
+							"dynamic": true
+						}
+					},
+					{
+						"type": "CText",
+						"identifier": "zeroDCOffset",
+						"loc": ["xpath", "//*[@test-tag='sensorsetup_dcoffset_rightcontent']"],
+						"autocode": {
+							"dynamic": true
+						}
+					},
+					{
+						"type": "CText",
+						"identifier": "cancel",
+						"loc": ["xpath", "//*[@test-tag='sensorssetup_cancel_button']"],
+						"autocode": {
+							"dynamic": true
+						}
+
+					},
+					{
+						"type": "CText",
+						"identifier": "save",
+						"loc": ["xpath", "//*[@test-tag='sensorssetup_save_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "delete",
+						"loc": ["xpath", "//*[@test-tag='sensorssetup_delete_button']"],
+						"autocode": {
+							"dynamic": true
+						}
+					}
+
+				]
+			}
+		}]
+	}
+}

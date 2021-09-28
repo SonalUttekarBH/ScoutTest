@@ -1,0 +1,27 @@
+{
+	"version": 1,
+	"po": {
+		"runtime": "mobile/android/apps/native/S1Scout200",
+		"name": "HazardAlertPage",
+		"appPackage": "com.bently.scout200",
+		"appActivity": "com.bently.scout200.MainActivity",
+		"members": {
+			"data": [{
+					"type": "CText",
+					"identifier": "title",
+					"loc": ["id", "android:id/alertTitle"]
+				},
+				{
+					"type": "CText",
+					"identifier": "message",
+					"loc": ["id", "android:id/message"]
+				},
+				{
+					"type": "CButton",
+					"identifier": "ok",
+					"loc": ["id", "com.bently.scout200:id/warningconfirm"]
+				}
+			]
+		}
+	}
+}

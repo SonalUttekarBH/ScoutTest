@@ -1,0 +1,67 @@
+{
+	"ui": {
+		"driverParams": {
+			"common": {
+				"browsers": {
+					"edge": {
+						"browserName": "edge"
+					},
+					"chrome": {
+						"browserName": "chrome"
+					},
+					"safari": {
+						"browserName": "safari"
+					},
+					"firefox": {
+						"browserName": "firefox"
+					}
+				}
+			},
+			"mobile": {
+				"common": {
+					"common": {
+						"cyborg:AppiumServerPort": 4723,
+						"cyborg:AppiumServerIP": "127.0.0.1"
+					},
+					"browsers": {
+						"chrome": {
+							"appium:chromedriverExecutable": "provide the path to chrome driver executable"
+						}
+					}
+				},
+				"android": {
+					"common": {
+						"platformVersion": "9.0",
+						"automationName": "appium",
+						"cyborg:adb": "Optional - provide the path to adb, required for some features",
+						"platformName": "Android",
+						"deviceName": "AppiumScout",
+						"autoGrantPermissions": "true",
+						"appium:chromedriverExecutable": "drivers/chromedriver.exe"
+					},
+					"apps": {
+						"s1scout200": {
+							"app": "s1scout200.apk"
+						}
+					}
+				}
+			},
+			"useDevice": {
+				"default": "desktop/win/browsers/chrome/default",
+				"LicenseAlert": "mobile/android/apps/native/S1Scout200",
+				"S1Scout200Page": "mobile/android/apps/native/S1Scout200",
+				"Splash": "mobile/android/apps/native/S1Scout200",
+				"DeviceCompatibilityAlert": "mobile/android/apps/native/S1Scout200",
+				"HazardAlert": "mobile/android/apps/native/S1Scout200"
+			}
+		}
+	},
+	"cucumber": {
+		"features": "classpath:Features",
+		"suites": "",
+		"xml": "junit:cucumberReports/Cucumber.xml",
+		"json": "json:cucumberReports/Cucumber.json",
+		"html": "html:cucumberReports/Cucumber.html",
+		"steps": "com.bh.at.s1scout200.step"
+	}
+}

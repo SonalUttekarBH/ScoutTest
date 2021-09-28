@@ -1,0 +1,135 @@
+{
+	"co": {
+		"co": [{
+				"name": "CNameSensor",
+				"members": {
+					"data": [{
+							"type": "CText",
+							"identifier": "sensorName",
+							"loc": ["xpath", "//*[@id='sensor.Name']", "webview"]
+						},
+						{
+							"type": "CText",
+							"identifier": "done",
+							"loc": ["xpath", "//*[@test-tag='message_done_button']"]
+						}
+					]
+				}
+			},
+			{
+				"name": "CTypeSensor",
+				"members": {
+					"data": [{
+						"type": "CText[]",
+						"identifier": "sensorName",
+						"loc": ["xpath", "//*[@id='sensorDriveCurrentList']", "webview"]
+					}]
+				}
+			},
+			{
+				"name": "CVolRCSensor",
+				"members": {
+					"data": [{
+						"type": "CText[]",
+						"identifier": "volRC",
+						"loc": ["xpath", "//*[@id='sensorChannelInputList']", "webview"]
+					}]
+				}
+			},
+			{
+				"name": "CdriveCurrentSensor",
+				"members": {
+					"data": [{
+							"type": "CText",
+							"identifier": "on",
+							"loc": ["xpath", "//*[@test-tag='sensordrivecurrent_On_listitem']", "webview"]
+						},
+						{
+							"type": "CText",
+							"identifier": "off",
+							"loc": ["xpath", "//*[@test-tag='sensordrivecurrent_Off_listitem']"]
+						}
+					]
+				}
+			},
+			{
+				"name": "CZeroDCOffset",
+				"members": {
+					"data": [{
+							"type": "CText",
+							"identifier": "sensorName",
+							"loc": ["xpath", "//*[@id='sensor.DCOffset']", "webview"]
+						},
+						{
+							"type": "CText",
+							"identifier": "done",
+							"loc": ["xpath", "//*[@test-tag='message_done_button']"]
+						}
+					]
+				}
+			},
+			{
+				"name": "CSensorType",
+				"members": {
+					"data": [{
+						"type": "CText[]",
+						"identifier": "type",
+						"loc": ["xpath", "//*[contains(@test-tag,'sensordrivecurrent_')]", "webview"]
+					}]
+				}
+			},
+			{
+				"name": "CSensorUnit",
+				"members": {
+					"data": [{
+						"type": "CText[]",
+						"identifier": "unit",
+						"loc": ["xpath", "//*[contains(@test-tag,'sensorunit_')]", "webview"]
+					}]
+				}
+			},
+			{
+				"name": "CSensorAutoSettling",
+				"members": {
+					"data": [{
+						"type": "CText[]",
+						"identifier": "autosettling",
+						"loc": ["xpath", "//*[contains(@test-tag,'sensorautosettling_')]", "webview"]
+					}]
+				}
+			},
+			{
+				"name": "CSensorSensitivity",
+				"members": {
+					"data": [{
+							"type": "CText",
+							"identifier": "sensitivity",
+							"loc": ["xpath", "//*[@id='sensor.Sensitivity']", "webview"]
+						},
+						{
+							"type": "CText",
+							"identifier": "done",
+							"loc": ["xpath", "//*[@test-tag='message_done_button']"]
+						}
+					]
+				}
+			},
+			{
+				"name": "CSensorSettlingTime",
+				"members": {
+					"data": [{
+							"type": "CText",
+							"identifier": "settlingTime",
+							"loc": ["xpath", "//*[@id='sensor.SettlingTime']", "webview"]
+						},
+						{
+							"type": "CText",
+							"identifier": "done",
+							"loc": ["xpath", "//*[@test-tag='message_done_button']"]
+						}
+					]
+				}
+			}
+		]
+	}
+}

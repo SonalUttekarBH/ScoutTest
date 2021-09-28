@@ -1,0 +1,57 @@
+{
+	"co": {
+		"co": [{
+			"name": "CSensorSetupPage",
+			"members": {
+				"data": [{
+						"type": "CCheckbox",
+						"identifier": "ch1Box",
+						"loc": ["xpath", "//*[@test-tag='channellist_Ch1_checkbox']", "webview"]
+					},
+					{
+						"type": "CCheckbox",
+						"identifier": "ch2Box",
+						"loc": ["xpath", "//*[@test-tag='channellist_Ch2_checkbox']"]
+					},
+					{
+						"type": "CCheckbox",
+						"identifier": "ch3Box",
+						"loc": ["xpath", "//*[@test-tag='channellist_Ch3_checkbox']"]
+					},
+					{
+						"type": "CCheckbox",
+						"identifier": "ch4Box",
+						"loc": ["xpath", "//*[@test-tag='channellist_Ch4_checkbox']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "ch1Name",
+						"loc": ["xpath", "//*[@test-tag='channellist_Ch1_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "ch2Name",
+						"loc": ["xpath", "//*[@test-tag='channellist_Ch2_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "ch3Name",
+						"loc": ["xpath", "//*[@test-tag='channellist_Ch3_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "ch4Name",
+						"loc": ["xpath", "//*[@test-tag='channellist_Ch4_rightcontent']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "done",
+						"loc": ["xpath", "//*[@test-tag='message_done_button']"]
+					}
+
+
+				]
+			}
+		}]
+	}
+}

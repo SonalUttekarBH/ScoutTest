@@ -1,0 +1,25 @@
+{
+	"co": {
+		"co": [{
+				"name": "CMeasurinUnitPage",
+				"members": {
+					"data": [{
+						"type": "CText",
+						"identifier": "measuringUnit",
+						"loc": ["xpath", "//*[@test-tag='settingsunitpreferences_unitset_rightcontent'", "webview"]
+					}]
+				}
+			},
+			{
+				"name": "CunitSet",
+				"members": {
+					"data": [{
+						"type": "CText",
+						"identifier": "S.Iunit",
+						"loc": ["xpath", "//*[@test-tag='settingsunitset_S.I._listitem'", "webview"]
+					}]
+				}
+			}
+		]
+	}
+}

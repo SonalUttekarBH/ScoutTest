@@ -1,0 +1,28 @@
+{
+	"co": {
+		"co": [{
+			"name": "CStatusBarPage",
+			"members": {
+				"data": [{
+						"type": "CButton",
+						"identifier": "back",
+						"loc": ["xpath", "//*[@test-tag='statusbar_back_button']","webview"]
+					},
+					{
+						"type": "CButton",
+						"identifier": "title",
+						"loc": ["xpath", "//*[@test-tag='statusbar_pagetitle_name']"]
+					},
+					{
+						"type": "CButton",
+						"identifier": "wifi",
+						"loc": ["xpath", "//*[@test-tag='home_routes_button']"],
+						  "autocode": {
+							"dynamic": true
+						  }
+					}
+				]
+			}
+		}]
+	}
+}

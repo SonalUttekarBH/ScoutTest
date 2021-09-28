@@ -1,0 +1,20 @@
+{
+	"co": {
+		"co": [{
+			"name": "CDialogPage",
+			"members": {
+				"data": [{
+						"type": "CButton",
+						"identifier": "okButton",
+						"loc": ["xpath", "//*[@test-tag='message_ok']", "webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "dialogText",
+						"loc": ["xpath", "//*[@test-tag='message_text_info']"]
+					}
+				]
+			}
+		}]
+	}
+}

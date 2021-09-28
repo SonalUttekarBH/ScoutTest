@@ -1,0 +1,20 @@
+{
+	"co": {
+		"co": [{
+			"name": "CDevicesPage",
+			"members": {
+				"data": [{
+						"type": "CCheckbox",
+						"identifier": "simulatorCBox",
+						"loc": ["xpath", "//*[@test-tag='devices_Simulator_checkbox']", "webview"]
+					},
+					{
+						"type": "CButton",
+						"identifier": "done",
+						"loc": ["xpath", "//*[@test-tag='devices_done_button']"]
+					}
+				]
+			}
+		}]
+	}
+}

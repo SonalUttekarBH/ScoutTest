@@ -1,0 +1,31 @@
+{
+	"co": {
+		"co": [{
+			"name": "CFileSelect",
+			"members": {
+				"data": [{
+				"type": "CText",
+				"identifier": "fileName",
+				"loc": ["xpath", "//*[@resource-id='android:id/title']","native"],
+				"autocode": {
+						"dynamic": true
+					}
+			},
+			{
+				"type": "CText",
+				"identifier": "root",
+				"loc": ["xpath", "//*[@content-desc='Show roots']","native"]
+			},
+			{
+				"type": "CText",
+				"identifier": "folders",
+				"loc": ["xpath", "//*[@resource-id='android:id/title']","native"],
+				"autocode": {
+						"dynamic": true
+					}
+			},
+			]
+			}
+		}]
+	}
+}

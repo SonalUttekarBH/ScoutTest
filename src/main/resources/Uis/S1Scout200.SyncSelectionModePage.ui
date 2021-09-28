@@ -1,0 +1,41 @@
+{
+	"co": {
+		"co": [{
+			"name": "CSyncSelection",
+			"members": {
+				"data": [{
+				"type": "CText",
+				"identifier": "usb",
+				"loc": ["xpath", "//*[@test-tag='sync_USB_listitem'","webview"]
+			},
+			{
+				"type": "CText",
+				"identifier": "wifi",
+				"loc": ["xpath", "//*[@test-tag='sync_Wi-Fi_listitem'","webview"]
+			},
+			{
+				"type": "CText",
+				"identifier": "loadFile",
+				"loc": ["xpath", "//*[@test-tag='sync_load_button'","webview"]
+			},
+			{
+				"type": "CText",
+				"identifier": "saveFile",
+				"loc": ["xpath", "//*[@test-tag='sync_save_button'","webview"]
+			},
+			{
+				"type": "CText",
+				"identifier": "addServer",
+				"loc": ["xpath", "//*[@test-tag='sync_add_button'","webview"]
+			},
+			{
+				"type": "CText",
+				"identifier": "editMode",
+				"loc": ["xpath", "//*[@test-tag='sync_editmode_button'","webview"]
+			}
+			
+			]
+			}
+		}]
+	}
+}

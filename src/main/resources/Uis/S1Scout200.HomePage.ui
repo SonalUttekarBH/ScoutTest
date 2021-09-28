@@ -1,0 +1,44 @@
+{
+	"co": {
+		"co": [{
+			"name": "CHomePage",
+			"members": {
+				"data": [{
+						"type": "CText",
+						"identifier": "routes",
+						"loc": ["xpath", "//*[@test-tag='home_routes_button']", "webview"]
+
+					}, {
+						"type": "CText",
+						"identifier": "measure",
+						"loc": ["xpath", "//*[@test-tag='home_measure_button']"]
+					}, {
+						"type": "CText",
+						"identifier": "sync",
+						"loc": ["xpath", "//*[@test-tag='home_sync_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "recordReview",
+						"loc": ["xpath", "//*[@test-tag='home_review_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "balancing",
+						"loc": ["xpath", "//*[@test-tag='home_sync_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "devices",
+						"loc": ["xpath", "//*[@test-tag='home_devices_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "settings",
+						"loc": ["xpath", "//*[@test-tag='home_settings_button']"]
+					}
+				]
+			}
+		}]
+	}
+}

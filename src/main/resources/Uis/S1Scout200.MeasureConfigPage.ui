@@ -1,0 +1,31 @@
+{
+	"co": {
+		"co": [{
+			"name": "CMeasureConfigPage",
+			"members": {
+				"data": [{
+						"type": "CText",
+						"identifier": "paramset",
+						"loc": ["xpath", "//*[@test-tag='measure_paramset_navbar']", "webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "sensors",
+						"loc": ["xpath", "//*[@test-tag='measure_sensors_navbar']"]
+					},
+					{
+						"type": "CCheckbox",
+						"identifier": "intervalCaptureMode",
+						"loc": ["xpath", "//*[@test-tag='intervalcapturemode_switch']"]
+					},
+					{
+						"type": "CButton",
+						"identifier": "measure",
+						"loc": ["xpath", "//*[@test-tag='measure_startmeasure_button']"]
+					}
+
+				]
+			}
+		}]
+	}
+}

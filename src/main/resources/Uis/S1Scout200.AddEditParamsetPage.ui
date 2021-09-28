@@ -1,0 +1,43 @@
+{
+	"co": {
+		"co": [{
+			"name": "CAddEditParamsetPage",
+			"members": {
+				"data": [{
+						"type": "CText",
+						"identifier": "type",
+						"loc": ["xpath", "//*[@test-tag='paramsetconfig_type_navbar']", "webview"]
+					},
+					{
+						"type": "CText",
+						"identifier": "storeUnit",
+						"loc": ["xpath", "//*[@test-tag='paramsetconfig_storeunit_navbar']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "cancel",
+						"loc": ["xpath", "//*[@test-tag='sensorssetup_cancel_button']"],
+						"autocode": {
+							"dynamic": true
+						}
+
+					},
+					{
+						"type": "CText",
+						"identifier": "save",
+						"loc": ["xpath", "//*[@test-tag='sensorssetup_save_button']"]
+					},
+					{
+						"type": "CText",
+						"identifier": "delete",
+						"loc": ["xpath", "//*[@test-tag='sensorssetup_delete_button']"],
+						"autocode": {
+							"dynamic": true
+						}
+					}
+
+				]
+			}
+		}]
+	}
+}

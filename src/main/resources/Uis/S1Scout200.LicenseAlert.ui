@@ -1,0 +1,37 @@
+{
+	"version": 1,
+	"po": {
+		"runtime": "mobile/android/apps/native/S1Scout200",
+		"name": "LicenseAlertPage",
+		"appPackage": "com.bently.scout200",
+		"appActivity": "com.bently.scout200.MainActivity",
+		"members": {
+			"data": [{
+					"type": "CText",
+					"identifier": "title",
+					"loc": ["id", "android:id/alertTitle"]
+				},
+				{
+					"type": "CText",
+					"identifier": "message",
+					"loc": ["id", "android:id/message"]
+				},
+				{
+					"type": "CButton",
+					"identifier": "view",
+					"loc": ["id", "com.bently.scout200:id/eulaview"]
+				},
+				{
+					"type": "CButton",
+					"identifier": "reject",
+					"loc": ["id", "com.bently.scout200:id/eulareject"]
+				},
+				{
+					"type": "CButton",
+					"identifier": "accept",
+					"loc": ["id", "com.bently.scout200:id/eulaconfirm"]
+				}
+			]
+		}
+	}
+}
